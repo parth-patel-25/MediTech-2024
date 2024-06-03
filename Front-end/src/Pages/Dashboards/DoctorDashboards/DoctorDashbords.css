@@ -1,0 +1,99 @@
+.PatientDashbords {
+    width: 100%;
+    display: flex;
+}
+.patient-left-section {
+    width: 20%;
+    background-color: #30014C;;
+    height: 100vh;
+    color: #fff;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.patient-right-section {
+    width: 80%;
+    height: 100vh;
+}
+
+.patient-menu {
+    display: flex;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 12;
+    color: white;
+    cursor: pointer;
+}
+
+.extra {
+    position: absolute;
+    background-color: #AD2CF0;
+    width: 90%;
+    height: 50px;
+    top: 19px;
+    left: 2px;
+    z-index: 9;
+    border-radius: 3px;
+}
+
+.patient-navigation-menu {
+    position: relative;
+}
+
+.patient-navigation-menu {
+    /* border: 2px solid blue; */
+    position: relative;
+    margin-left: 20px;
+}
+
+.avatar {
+    outline: 3px solid white;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.avatar-section {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-avatar-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    
+}
+
+.patient-navigation {
+    /* border: 2px solid red; */
+    margin-left: -20px;
+}
+
+.patient-logout {
+    margin-top: 150px;
+    /* background-color: black; */
+}
+
+.patient-right-section {
+    position: relative;
+    /* z-index: 10;
+    box-shadow: 10px 0px 100px 10px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    height: 98vh;
+    margin-top: 6px;
+    width: 79%;
+    margin-left: 8px; */
+}

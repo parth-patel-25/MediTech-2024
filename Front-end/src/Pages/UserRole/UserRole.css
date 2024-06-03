@@ -1,0 +1,42 @@
+.main-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.center-box {
+    width: 60%;
+    height: 500px;
+    /* background-color: rgb(255, 0, 0); */
+    box-shadow: 0px 0px 50px 0px rgba(192, 192, 192, 0.5);
+    border-radius: 5px;
+    background-color: #30014C;
+}
+
+.center-box > h1 {
+    color: white;
+    text-align: center;
+}
+
+.user-box {
+    color: rgb(242, 242, 242);
+    background-color: #AD2CF0;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    border-radius: 5px;
+    /* border: 2px solid blue; */
+}
+
+.user-inner-box img {
+    width: 100%;
+}
+
+
+.content-data {
+    display: flex;
+    justify-content: space-around;
+}

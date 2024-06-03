@@ -1,0 +1,268 @@
+.DoctorDetailsForm {
+    background-color: lightgrey;
+}
+.center-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    /* border: 2px solid red; */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-box {
+    border: 2px solid #AD2CF0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillup-lines {
+    /* border: 2px solid red; */
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.checkBoxed {
+    background-color: #AD2CF0;
+}
+
+.checkBoxed-two {
+    background-color: #AD2CF0;
+}
+
+.checkBoxed-three {
+    background-color: #AD2CF0;
+}
+
+.checkBoxed-fourth {
+    background-color: #AD2CF0;
+}
+
+.span-1 {
+    position: absolute;
+    width: 136px;
+    left: 93px;
+    height: 5px;
+    background-color: rgb(235, 235, 235);
+    margin-top: -20px;
+}
+
+.checkSpan-one {
+    background-color: #AD2CF0;
+}
+
+
+.span-2 {
+    position: absolute;
+    width: 153px;
+    left: 262.20px;
+    height: 5px;
+    background-color: rgb(235, 235, 235);
+    margin-top: -20px;
+}
+
+.checkSpan-two {
+    background-color: #AD2CF0;
+}
+
+.span-3 {
+    position: absolute;
+    width: 191px;
+    left: 448px;
+    height: 5px;
+    background-color: rgb(235, 235, 235);
+    margin-top: -20px;
+}
+
+.checkSpan-three {
+    background-color: #AD2CF0;
+}
+
+
+.data-box {
+    /* border: 2px solid brown; */
+    display: flex;
+    align-items: center;
+}
+
+.inner-card {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.outer-card {
+    /* border: 2px solid blue; */
+    margin-top: 50px;
+    height: 500px;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.boxes input {
+    display: block;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.boxes select {
+    display: block;
+    width: 325px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.centerInput-boxes {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.cards {
+    position: relative;
+    overflow: hidden;   
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-card-1,.outer-card-2,.outer-card-3,.outer-card-4   {
+    position: absolute;
+    /* border: 2px solid red; */
+}
+
+.outer-card-1,.outer-card-2,.outer-card-3, .outer-card-4  {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+
+.outer-card-2 {
+    position: absolute;
+    left: 500px;
+    /* border: 2px solid blue; */
+}
+
+
+.outer-card-3 {
+    position: absolute;
+    left: 600px;
+}
+
+.outer-card-4 {
+    position: absolute;
+    left: 1000px;
+    /* height: 520px; */
+    /* border: 2px solid red; */
+}
+
+.outer-card-1 .buttons {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.outer-card-2 .buttons {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.outer-card-3 .buttons {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.outer-card-4 .buttons {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttons button {
+    background-color: #AD2CF0;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.patient-card-main-box {
+    background-color: #30014C;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+.dates {
+    display: flex;
+    width: 320px;
+}
+
+.dates .start-date input{
+    width: 163px;
+    /* border: 2px solid red; */
+}
+
+.dates .end-date input{
+    width: 163px;
+    /* border: 2px solid red; */
+}
+
+textarea {
+    overflow-y: scroll;
+    resize: none;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+
+.outer-card-4 .boxes input[type="text"]{ 
+    width: 350px;
+}
+
+.outer-card-4 .boxes input[type="text"]{ 
+    width: 350px;
+}

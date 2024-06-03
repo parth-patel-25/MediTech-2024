@@ -1,0 +1,77 @@
+.datainput-title-contatiner {
+    position: relative;
+}
+
+.datainput-title {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.datainput-title-underline {
+    display: block;
+    position: absolute;
+    background-color: #AD2CF0;
+    height: 10px;
+    width: 14rem;
+    bottom: -12px;
+    left: 50px;
+    border-radius: 100px;
+}
+
+.datainput-section-data {
+    /* background-color: red; */
+    width: 100%;
+}
+
+.current-symptoms {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.current-symptoms h3 {
+    /* background-color: black; */
+    margin-bottom: 5px;
+}
+
+.current-symptoms textarea {
+    width: 100%;
+    overflow: hidden;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: #30014C;
+    color: white;
+}
+
+.current-symptoms textarea:focus { 
+    outline: none !important;
+    border: 3px solid #AD2CF0;
+}
+
+.datainput-btn {
+    /* background-color: black; */
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.datainput-btn button {
+    outline: 0;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #30014C;
+    color: #fff;
+    cursor: pointer;
+    transition: all .7s;
+}
+
+.datainput-btn button:hover {
+    background-color: #AD2CF0;
+    box-shadow: 0px 10px 20px 0px #F5F7F8;
+}
+
+
