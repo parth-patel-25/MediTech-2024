@@ -4,6 +4,8 @@ html,body{
 
 .landing-page {
     background-color: #30014C;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .nav-bar {
@@ -92,11 +94,9 @@ html,body{
 }
 
 .para-two{  
-    margin-top: 30px;
     color: #AD2CF0;
-}
-.para-two {
     letter-spacing: 2px;
+
 }
 
 .right-section > img {
@@ -107,7 +107,7 @@ html,body{
 }
 
 .inner-content {
-    line-height: 3px;
+    /* line-height: 3px; */
     margin-top: 50px;
 }
 
@@ -115,6 +115,7 @@ html,body{
     margin-top: 50px;
     line-height: 2;
 }
+
 .center-section {
     height: 570px;
 }

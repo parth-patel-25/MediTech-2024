@@ -8,8 +8,6 @@ const LandingPage = () => {
     const { loginWithRedirect } = useAuth0();
     
 
-      
-
   return (
     <div className='landing-page'>
         <div className='nav-bar'>
@@ -44,7 +42,8 @@ const LandingPage = () => {
             <div className='left-section'>
                 <h1>Welcome To Health <br /> Intelligence Hub</h1>
                 <div className='inner-content'>
-                    <p className='para'>Your healthcare companion </p> <p className='para-two'>empowring patients, enlightening doctors.</p>
+                    <p className='para'>Your healthcare companion </p> 
+                    <p className='para-two'>empowring patients, enlightening doctors.</p>
                 </div>
                 <div className='last-para'>
                     <p>Transforming healthcare: empowring patients and <br /> doctors thorugh secure health data managment and advanced analysis. <br /> your trusted partner in a new era of well - being </p>
